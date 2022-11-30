@@ -41,7 +41,7 @@
                         <img src ="rfprofile.jpg" alt="Renatta Fernandez Profile Picture" style=" width: 25%; height:25%; max-width: 150px;
                         max-height: 150px; margin-top: 25px;  margin-bottom: 25px; border-radius: 50%;" />
                     <br/>
-                    <h1 style = "margin-top: 10px;  margin-bottom: 5px;  margin-left: 20px;  margin-right: 20px;">Renatta Fernandez</h1>
+                    <h1 style = "margin-top: 10px;  margin-bottom: 5px;  margin-left: 20px;  margin-right: 20px;"><span id="myName">Renatta Fernandez</span></h1>
                     Computer Science Student<br/>
                 </div>
                 </td>
@@ -55,6 +55,21 @@
             </tr>
         </tbody>
     </table>
+    <button onclick="changeName()"> Change Name</button>
+
+    <script>
+        console.log("Hello")
+        var x =10;
+        var y =20;
+        var z = x + y;
+        console.log(z)
+
+        function changeName() {
+            var span = document.getElementById("myName");
+            span.innerHTML = "It's Britney"
+        }
+
+    </script>
     
     </body>
 
