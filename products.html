@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <title>Product Table</title>
+    </head>
+
+    <body onload="loadData()">
+        <h1>Product Table with Dynamic Content</h1>
+        <table id="productList" class="product_table center">
+            <thead>
+                <th style="width: 40%">Item</th>
+                <th  class="text-center" style="width: 10%">Quantity</th>
+                <th  class="text-right" style="width: 25%">PPU</th>
+                <th  class="text-right" style="width: 25%">Total</th>
+            </thead>
+            
+            <tbody>
+               
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-right">Gross</td>
+                    <td class="text-right">
+                        <span id="gross"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right">VAT 7%</td>
+                    <td class="text-right">
+                        <span id="vat"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="text-right">Net</td>
+                    <td class="text-right">
+                        <span id="net"></span>
+                    </td>
+                </tr> 
+            </tfoot>
+        </table>
+
+        <script src="products.js"></script>
+    </body>
+    </html>
