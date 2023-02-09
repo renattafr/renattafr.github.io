@@ -1,0 +1,30 @@
+[
+    {
+        "quantity": 1,	
+        "item": "Samsung Galaxy Z Flip4 5G",	
+        "ppu": 35900,
+        "discount" :2905
+    },
+
+    {
+        "quantity": 2,	
+        "item": "Xiaomi 12T Pro 5G",	
+        "ppu": 25990,
+        "discount" :890
+    },
+
+    {
+        "quantity": 1,	
+        "item": "Readmi A1",	
+        "ppu": 2997,
+        "discount" : 500
+    },
+
+    {
+        "quantity": 4,	
+        "item": "Huawei Nova 10SE",	
+        "ppu": 13900,
+        "discount" : 1700
+    }
+
+]
